@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+footer{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 1300px;
+    }
+@media(max-width:760px){
+    footer{
+    width: 800px;
+    }
+}
+.feedback{
+    background-image: url(./plx-dark.jpg);
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    display: flex;
+    padding: 50px;
+    gap:40px ;
+}
+@media(max-width: 760px){
+    .feedback{
+        flex-direction: column;
+        
+    
+    }
+}
+input{
+    width: 500px;
+    height: 50px;
+    margin-right: 100px;
+}
+#feedback{
+    padding-bottom: 100px;
+}
+#enter{
+    padding-left: 10px;
+}
+#submit{
+    width: 100px;
+    background-color: blue;
+color: azure;
+border-color: blue;
+border: 4px;
+}
+.section2{
+    background-color: rgba(29, 29, 116, 0.904);
+    padding:5px 0px 10px 50px;
+    
+display: flex;
+align-content: space-between;
+gap: 80px;
+padding: 75px 20px 75px 40px;
+height: 300px;
+}
+@media(max-width: 760px){
+    .section2{
+        flex-direction: column;
+    height: 1200px;
+    }
+}
+ a{
+    display: inline-block;
+    text-decoration: none;
+color: white;
+}
+.app1{
+    padding-bottom: 70px;
+    padding-right: 40px;
+}
+a:hover{
+    cursor: pointer;
+    color: rgba(105, 101, 101, 0.281);
+}
+.info{
+    margin-bottom: 100px;
+}
+.section3{
+    background-color: rgb(194, 39, 39);
+    display: flex;
+    align-content: space-between;
+    gap: 30px;
+    padding: 50px 50px 20px 40px;
+    height: 60px;
+}
+@media(max-width:760px){
+    .section3{
+        flex-direction: column;
+    }
+}
